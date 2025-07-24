@@ -1,13 +1,18 @@
-# 📊 Analyse en Composantes Principales (PCA) avec méthode des puissances et déflation
+📊 **Principal Component Analysis (PCA) Using Power Method and Deflation**
+This project implements a custom version of Principal Component Analysis (PCA) from scratch, without using scikit-learn, by combining:
 
-Ce projet implémente une version personnalisée de l'**Analyse en Composantes Principales (PCA)** à partir de zéro, sans utiliser `scikit-learn`, en combinant :
+Centering the data and computing the covariance matrix
 
-- Centrage et calcul de la **matrice de covariance**
-- **Méthode des puissances** pour obtenir le vecteur propre principal
-- **Déflation** pour extraire les vecteurs propres suivants
-- Projection des données sur les composantes principales
-- Visualisation des résultats avec `matplotlib` et `seaborn`
-📁 Contenu du projet
+The Power Method to find the dominant eigenvector
+
+Deflation to extract subsequent eigenvectors
+
+Projection of data onto the principal components
+
+Visualization of the results using matplotlib and seaborn
+
+
+📁 **Project organisation**
 data
 
 ├── iris.txt
@@ -22,4 +27,11 @@ notebook
 
 README.MD
 
+📌**Execution**
+
+To execute this project, press the following badge:
+
 [![Exécuter sur Binder](https://mybinder.org/badge_logo.svg)](https://hub.gesis.mybinder.org/user/zoubirchatti-01__linear-algebra-ws2un37q/doc/tree/03_principle_component_analysis_deflation/notebook/PCA_deflation%20.ipynb)
+
+**Author**:
+Zobubir Chatti

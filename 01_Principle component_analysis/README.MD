@@ -23,8 +23,6 @@ Ce projet présente une implémentation **manuelle** de l'Analyse en Composantes
 
 **README.MD**
 
-**requirements**
-
 
 ## 📌Principle Components Analysis
 
@@ -38,4 +36,5 @@ Cliquez sur le bouton ci-dessous pour lancer le notebook dans Binder (environnem
 
 ## 👤 Auteur
 Zoubir Chatti
+
 
